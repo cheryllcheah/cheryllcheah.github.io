@@ -1,0 +1,20 @@
+
+
+/* Global Classes */
+
+.title-text{
+    font: normal bold 50px/ 72px var(--roboto)
+}
+
+.text-uppercase{
+    text-transform:uppercase;
+}
+
+/* Buttons */
+
+
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--roboto);
+}
