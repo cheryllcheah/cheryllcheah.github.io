@@ -54,10 +54,17 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                       <div class="me-auto"></div>
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a href="index.html" class="nav-link nav-link1" href="#">work</a>
-                      </li>
+                      <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            work
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/hotel-reservations.html">Hotel Reservations App</a></li>
+                            <li><a class="dropdown-item" href="/property-booking.html">Property Booking App</a></li>
+                            <li><a class="dropdown-item" href="/device-monitoring.html">Device Monitoring App</a></li>
+                          </ul>
+                        </li>
                       <li class="nav-item">
                         <a href="play.html" class="nav-link nav-link2" href="#">play</a>
                       </li>
@@ -298,12 +305,6 @@
     </section>
 
     <!-- End Main Area-->
-        
-    <!--jquery js file-->
-    <script src="./js/jquery.3.6.0.js"></script>
-
-    <!--bootstrap js file-->
-    <script src="./js/bootstrap.min.js"></script>
     
 </body>
 </html>
