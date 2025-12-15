@@ -284,6 +284,46 @@ a[href^="mailto:"]:hover {
 text-decoration: underline solid #FCC79F 8px;
 }
 
+/* Components */
+
+/* pills */
+
+.pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 14px;
+  border-radius: 999px;
+
+  background-color: #F5F3F0;
+  border: 1px solid #e4dfd9;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937; /* neutral dark */
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+.pill-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.pill:hover {
+  background-color: #f0eae3;
+  border-color: #e4dfd9;
+}
+
 /* Images */
 
 .center {
